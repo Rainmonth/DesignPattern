@@ -12,7 +12,7 @@ public class Account {
 //    private static Account account = new Account();
 
     // 账户余额
-    private double money = 1000D;
+    private double money = 6000D;
 
     /**
      * 懒汉式（非线程安全）
