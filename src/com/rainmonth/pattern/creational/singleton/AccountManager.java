@@ -1,11 +1,15 @@
 package com.rainmonth.pattern.creational.singleton;
 
 /**
- * 单例模式--懒汉式实现（用到的时候才想着去得到单例对象）
+ * 单例模式代码实例
  * Created by RandyZhang on 2017/3/20.
  */
 public class AccountManager {
     private static AccountManager accountManager = null;
+    /**
+     * 饿汉式
+     */
+//    private static AccountManager accountManager = new AccountManager();
 
     // 账户余额
     private double money = 1000D;
