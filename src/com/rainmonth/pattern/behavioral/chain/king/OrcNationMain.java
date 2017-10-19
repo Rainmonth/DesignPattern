@@ -1,4 +1,4 @@
-package com.rainmonth.pattern.behavioral.chain;
+package com.rainmonth.pattern.behavioral.chain.king;
 
 public class OrcNationMain {
     public static void main(String[] args) {

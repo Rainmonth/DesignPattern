@@ -1,14 +1,14 @@
-package com.rainmonth.pattern.behavioral.chain;
+package com.rainmonth.pattern.behavioral.chain.king;
 
-public class OrcCommander extends RequestHandler {
+public class OrcSoldier extends RequestHandler {
 
-    public OrcCommander(RequestHandler next) {
+    public OrcSoldier(RequestHandler next) {
         super(next);
     }
 
     @Override
     public void handleRequest(Request request) {
-        if (request.getRequestType() == RequestType.TRAIN_SOLDIER) {
+        if (request.getRequestType() == RequestType.DEFEND_CASTLE) {
             printHandling(request);
         } else {
             super.handleRequest(request);
