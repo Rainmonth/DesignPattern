@@ -1,5 +1,8 @@
 package com.rainmonth.pattern.behavioral.chain.king;
 
+/**
+ * 责任链模式示例
+ */
 public class OrcNationMain {
     public static void main(String[] args) {
         OrcKing orcKing = new OrcKing();
